@@ -1,0 +1,16 @@
+.confirm-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.summary {
+  margin: 20px auto;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.note {
+  margin-top: 20px;
+  color: green;
+}
