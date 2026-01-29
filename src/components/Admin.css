@@ -27,3 +27,14 @@
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-5px);
 }
+
+@media (max-width: 600px) {
+  .admin-container {
+    padding: 20px;
+  }
+
+  .admin-card {
+    padding: 15px;
+    font-size: 14px;
+  }
+}

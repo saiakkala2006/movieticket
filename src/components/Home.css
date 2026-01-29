@@ -29,3 +29,15 @@
 .movie-card:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 600px) {
+  .home-container {
+    padding: 15px;
+  }
+
+  .movie-card {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+

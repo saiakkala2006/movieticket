@@ -14,3 +14,13 @@
   margin-top: 20px;
   color: green;
 }
+
+@media (max-width: 600px) {
+  .summary {
+    width: 90%;
+  }
+
+  .confirm-container h1 {
+    font-size: 22px;
+  }
+}
