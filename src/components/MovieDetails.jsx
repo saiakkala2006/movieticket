@@ -47,9 +47,10 @@ function MovieDetails() {
         </div>
       )}
 
-      <button onClick={() => navigate("/confirm")}>
+      <button onClick={() => navigate("/seats")}>
         Book Tickets
       </button>
+
     </div>
   );
 }

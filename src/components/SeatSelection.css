@@ -1,0 +1,43 @@
+.seat-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.screen {
+  background-color: #ccc;
+  padding: 10px;
+  margin: 20px auto;
+  width: 200px;
+  font-weight: bold;
+}
+
+.seats {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.seat {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #333;
+  margin: 4px;
+  line-height: 35px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.seat.selected {
+  background-color: green;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 15px;
+}
